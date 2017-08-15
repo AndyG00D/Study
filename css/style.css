@@ -1,16 +1,32 @@
-@charset "utf-8";
+html,
 body {
-	font: 12px Verdana, Arial, Helvetica, sans-serif;
-	background-color: #4E5869;
-	margin: 0;
-	padding: 0;
-	color: #000;
-	height: 100%;
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+}
+.wrap {
+  width: 80%;
+  margin: auto;
+  background-color: #ccc;
+  min-height: 100%;
+  position: relative;
 }
 
-html { 
- position:relative; 
- min-height:100%;
+.header{
+	height:100px;
+	  background-color: #666;
+}
+
+.breadcrumpMenu{
+	  height: 25px;
+	  background-color: #fff;
+	  width:100%;
+	  padding-top:10px;
+	  padding-left:10px;
+}
+
+.left{
+	float:left;
 }
 
 a:link {
@@ -25,50 +41,18 @@ a:hover, a:active, a:focus {
 	text-decoration: none;
 }
 
-
-.container {
-	width: 80%;
-	max-width: 1260px;
-	min-width: 780px;
-	background-color: #FFF;
-	margin: 0 auto;
-	height: 100%;
-	
-	}
-
-
-.header {
-	background-color: #6F7D94;
-	padding:10px;
-	height: 120px;
-}
-
-.breadcrumpMenu {
-    background-color: #93A5C4;
-    padding: 10px;
-    height: 25px;
-}
-
-.breadcrumpMenu ul li{
-	    display: inline-block;
-}
-
-
-.left {
-	float:left;
-}
-
 .content {
-background: #F5F7FA;
-    box-sizing: border-box;
-    min-height: 100%;
-    padding-bottom: 90px;
+  padding-bottom: 100px;
+  overflow: auto;
+  height: 80%;
+  
 }
+.wrap .footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  background-color: #666;
 
-.footer {
-    height: 80px;
-     position: absolute;
-	bottom: 0;
-    background-color: #6F7D94;
-	}
-
+}
