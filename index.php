@@ -1,3 +1,11 @@
+<?php
+ini_set('display_errors', 1);
+require_once 'system/load.php';
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
 <head>
